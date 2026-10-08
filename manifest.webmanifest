@@ -1,0 +1,11 @@
+{
+  "name": "Skyjo Scorekeeper",
+  "short_name": "Skyjo",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#111827",
+  "icons": [
+    {"src":"icon-180.png","sizes":"180x180","type":"image/png","purpose":"any maskable"}
+  ]
+}
