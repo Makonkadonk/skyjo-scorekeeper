@@ -1,5 +1,5 @@
-const CACHE="skyjo-v2";
-const ASSETS=["./","./index.html","./manifest.webmanifest","./icon-180.png"];
+const CACHE="skyjo-v3";
+const ASSETS=["./","./index.html","./manifest.webmanifest","./skyjo-icon.png"];
 self.addEventListener("install",event=>{
   event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));
 });
